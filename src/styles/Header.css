@@ -1,0 +1,13 @@
+/* styles-desktop.css */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  margin-left: 10px; 
+}
+
+.button {
+  background-color: #ba0e0e;
+}

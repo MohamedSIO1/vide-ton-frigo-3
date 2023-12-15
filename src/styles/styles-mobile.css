@@ -1,0 +1,180 @@
+/* styles-mobile.css */
+@media screen and (max-width: 767px) {
+  .home-page-container {
+    background-color: #F4A257;
+    width: 100%;
+    min-height: 139vh;
+    position: relative;
+  }
+
+  .rectangle-orange {
+    height: auto;
+  }
+
+  .text-style {
+    position: absolute;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .text-style1 {
+    font-size: 28px;
+    left: 20px;
+    top: 13vh;
+  }
+
+  .text-style2 {
+    font-size: 30px;
+    left: 37px;
+    top: 18vh;
+  }
+
+  .text-style3 {
+    font-size: 30px;
+    left: 20px;
+    top: 27vh;
+    font-weight: bold;
+  }
+
+  .text-style4 {
+    font-size: 30px;
+    left: 85px;
+    top: 37vh;
+    font-weight: bold;
+  }
+
+  .text5, .text6 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: #000000;
+    border-bottom: 5px solid #F4A257;
+    display: inline-block;
+  }
+
+  .text5 {
+    top: 148vh;
+    left: 5%;
+  }
+
+  .text6 {
+    top: 153vh;
+    left: 25%;
+  }
+
+  .vegetable {
+    margin: 10px;
+  }
+
+  .phone {
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 51vh;
+    left: 10vw;
+  }
+
+  .vegetable.tomato {
+    position: absolute;
+    top: 2vh;
+    left: 33vw;
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .vegetable.celeri {
+    position: absolute;
+    top: 4vh;
+    left: 65vw;
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .vegetable.poireau {
+    position: absolute;
+    top: 3vh;
+    left: 0vw;
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .vegetable.choux {
+    position: absolute;
+    top: 31vh;
+    left: 63vw;
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .vegetable.steack {
+    position: absolute;
+    top: 40vh;
+    left: 28vw;
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .vegetable.brocoli {
+    position: absolute;
+    top: 35vh;
+    left: 0;
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .apple-icon {
+    width: 30vw;
+    height: 6vh;
+    position: absolute;
+    top: 136vh;
+    left: 1vw;
+  }
+
+  .google-icon {
+    width: 30vw;
+    height: 20vh;
+    position: absolute;
+    top: 129vh;
+    left: 25vw;
+  }
+
+  .scroll {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 145vh;
+    right: 0;
+  }
+  .rounded-square1 {
+    border-radius: 20px; 
+    background-color: #F4A257;
+    width: 70vw; 
+    height: 25vh; 
+    position: absolute;
+    top: 130vh;
+    left: 15vw;
+  }
+  
+  .rounded-square2 {
+    border-radius: 20px; 
+    background-color: #D46053;
+    width: 70vw; 
+    height: 25vh; 
+    position: absolute;
+    top: 130vh;
+    left: 35vw;
+  }
+  
+  .rounded-square3 {
+    border-radius: 20px; 
+    background-color: #F4A257;
+    width: 70vw; 
+    height: 25vh; 
+    position: absolute;
+    top: 130vh;
+    left: 55vw;
+  }
+  
+}
